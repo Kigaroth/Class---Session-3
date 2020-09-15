@@ -14,7 +14,7 @@ int main()
 
     std::vector <char> board = { '1','2','3','4','5','6','7','8','9' };
  
-        for (int i = 0; i < sizeof(board) / sizeof(board[0]); i++) { //i should use the size of the board instead//
+        for (int i = 0; i < board.size(); i++) { //i should use the size of the board instead of a value//
             if (i % 3 == 0) {
                 std::cout << "\n";
             }
