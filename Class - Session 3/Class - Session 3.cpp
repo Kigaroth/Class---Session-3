@@ -25,7 +25,12 @@ int main()
         return 0;
 }
 
-        //old ccode//
+
+
+
+//Notes and old code written during the class//
+
+        //old code//
         //const int size = 10;
         //int my_array[size] = {};
 
@@ -42,16 +47,13 @@ int main()
         //    }
         //    std::cout << board[i];
         //    std::cout << "\t ";
-        //}
-
-
+        //
 
 //char board[9]; {'1','2','3','4','5','6','7','8','9'}  --> Written on blackboard in class
 //double num [100] = {} --> Written on blackboard in class
 
 //This is bad practice for an array, better solution is above//
-
-    //for (int i = 0; i < 9; i++) {
+   //for (int i = 0; i < 9; i++) {
     //    if (i % 3 == 0) {
     //        std::cout << "\n\n";
     //    }
