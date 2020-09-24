@@ -16,11 +16,12 @@ int main()
  
         for (int i = 0; i < board.size(); i++) { //i should use the size of the board instead of a value//
             if (i % 3 == 0) {
-                std::cout << "\n";
+                std::cout << "\n-------------\n| ";
             }
-            std::cout << board[i];
-            std::cout << "\t ";
+            std::cout << board[i] << " | ";
         }
+        std::cout << "\n-------------";
+
 
         return 0;
 }
